@@ -78,14 +78,17 @@ section{
 .texto{
   color: aliceblue;
   background-color: black;
-  background-size: 70%;
+  background-size: 100%;
+  font-size: 20px;
 }
 .recuadro{
   background-color: rgb(255, 0, 0);
   min-width: 100px;
-  min-height: 65px;
+  min-height: 40px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
+  cursor: pointer;
   justify-content: center;
 }
 .mitad2 .estacionamiento .recuadro{

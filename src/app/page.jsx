@@ -9,9 +9,9 @@ export default function Home() {
       <section>
       </section>
       <aside className='aside'>
-        <Division clase="left"/>
-        <Centro/>
-        <Division clase="right"/>
+        <Division clase="left" id="123"/>
+        <Centro id="12323"/>
+        <Division clase="right" id="12"/>
       </aside>
     </div>
   )

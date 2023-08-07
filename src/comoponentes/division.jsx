@@ -2,16 +2,17 @@
 import { Estacionamiento } from "./estacionamiento"
 import { useState, useEffect } from "react"
 export function Division(props) {
+    const {id}=props
     const [estacionamientos, setEstacionamientos] = useState([])
     const { clase } = props
     useEffect(() => {
         const est = []
         for (let i = 1; i <= 7; i++) {
-            est.push(<Estacionamiento matricula="123432" />)
+            est.push(<Estacionamiento matricula="123432" key={i} />)
         }
         setEstacionamientos(est)
     }, [])
-    return <div className={clase}>
+    return <div className={clase} key={id}>
         <div className="mitad">
             {estacionamientos}
         </div>
