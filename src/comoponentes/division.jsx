@@ -8,7 +8,7 @@ export function Division(props) {
     useEffect(() => {
         const est = []
         for (let i = 1; i <= 7; i++) {
-            est.push(<Estacionamiento matricula="123432" key={i} />)
+            est.push(<Estacionamiento matricula="124" key={i} />)
         }
         setEstacionamientos(est)
     }, [])

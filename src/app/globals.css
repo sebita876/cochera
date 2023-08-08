@@ -45,11 +45,15 @@ section{
 
 .lineas-container {
   display: flex;
+  height: 100%;
+  width: auto;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 
 .linea2 {
-  height: 40px;
+  height: 7%;
   width: 80%;
   background-color: white;
   margin: 8px; 
@@ -82,7 +86,7 @@ section{
   font-size: 20px;
 }
 .recuadro{
-  background-color: rgb(255, 0, 0);
+  background-color: #48ff00;
   min-width: 100px;
   min-height: 40px;
   border-radius: 10px;
@@ -96,4 +100,25 @@ section{
 }
 .mitad .estacionamiento .recuadro{
   margin-right: 10px;
+}
+.modalConten{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.582);
+}
+.modal{
+  background-color: blue;
+  height: 25%;
+  width: 20%;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.h1{
+  display: none;
 }
