@@ -79,13 +79,13 @@ section{
 .estacionamiento:last-child{
   border-bottom: 4px solid rgb(255, 255, 255)
 }
-.texto{
-  color: aliceblue;
-  background-color: black;
-  background-size: 100%;
+.texto {
+  color: black;
   font-size: 20px;
+  margin: 0; /* Elimina los márgenes predeterminados del párrafo */
+  white-space: nowrap; /* Evita el retorno de línea automático */
 }
-.recuadro{
+.recuadro {
   background-color: #48ff00;
   min-width: 100px;
   min-height: 40px;
@@ -94,6 +94,7 @@ section{
   align-items: center;
   cursor: pointer;
   justify-content: center;
+  overflow: hidden; /* Evita que el contenido desborde el recuadro */
 }
 .mitad2 .estacionamiento .recuadro{
   margin-left: 10px;

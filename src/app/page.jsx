@@ -2,8 +2,9 @@ import { Estacionamiento } from '@/comoponentes/estacionamiento'
 import { Linea } from '@/comoponentes/linea'
 import { Centro } from '@/comoponentes/centro'
 import { Division } from '@/comoponentes/division'
+import Conectar from '@/bd/conectarse'
 export default function Home() {
-  
+  Conectar()
   return (
     <div className='fondo'>
       <section>
